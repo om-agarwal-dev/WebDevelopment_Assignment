@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignement18</title>
+</head>
+<body>
+    <header>
+        <h1>ABC College Admission 2026</h1>
+        <h2 id="courses-heading">Courses and Fees</h2>
+    </header>
+    <table>
+        <caption>Available Courses</caption>
+        <thead>
+            <tr>
+            <th scope="col">Course</th>
+            <th scope="col">Seats</th>
+            <th scope="col">Fees</th>  
+            </tr>     
+        </thead>
+        <tbody>
+            <tr>
+                <td>B.Tech CSE</td>
+                <td>120</td>
+                <td>45,000rs</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <section aria-label="Student Application">
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Application Form</legend>
+                <div class="form-group">
+                    <label for="student-name">Name:</label>
+                    <input type="text" id="student-name" name="student_name" required minlength="2">
+                </div>
+                <div class="form-group">
+                    <label for="student-email">Email:</label>
+                    <input type="email" id="student-email" name="student_email" required>
+                </div>
+                <div class="form-group">
+                    <label for="statement">statement:</label>
+                    <textarea id="statement" name="statement" required minlength="10"></textarea>
+                </div>
+
+                <button type="submit">Apply</button>
+            </fieldset>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 ABC College</p>
+    </footer>   
+    
+</body>
+</html>
